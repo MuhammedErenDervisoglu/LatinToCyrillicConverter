@@ -1,7 +1,3 @@
-from turtle import *
-
-
-
 print("WELCOME!")
 
 while True:
@@ -162,50 +158,9 @@ while True:
             metin = metin.replace("ya", "я")
             metin = metin.replace("Ya", "Я")
 
-        #if metin in "j++o" or "J++O":
-        #    metin.replace("j++o", "йо")
-        #    metin.replace("J++O", "йО")
-
-        #if metin in "s+h" or "S+H":
-        #    metin.replace("", "")
-
         print(metin)
 
     elif mod == "3":
-        t = Turtle()
-        wn = Screen()
-        wn.bgcolor("black")
-        t.shape("turtle")
-        t.color("white", "white")
-        t.left(90)
-        t.forward(40)
-        t.right(90)
-        t.circle(40, 90)
-        t.forward(80)
-        t.circle(20, 180)
-        t.right(180)
-        t.circle(20, 180)
-        t.right(180)
-        t.forward(80)
-        t.circle(20, 180)
-        t.forward(80)
-        t.right(180)
-        t.circle(20, 180)
-        t.forward(80)
-        t.right(180)
-        t.penup()
-        t.forward(40)
-        t.pendown()
-        t.circle(20, 180)
-        t.left(50)
-        t.forward(50)
-        t.right(50)
-        t.circle(40, 90)
-        t.right(90)
-        t.forward(40)
-        t.left(90)
-        t.forward(80)
-        done()
         exit()
 
     elif mod == "2":
